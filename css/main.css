@@ -1711,3 +1711,39 @@ textarea.input_field {
 	  padding: 0;
 	}
   }
+
+
+
+  h1.name {
+	font-size: 50px;
+	white-space: nowrap;
+	overflow: hidden;
+	color: #14ba3a;
+	font-weight: bold;
+	cursor: none;
+	animation: typewriter 2s steps(13) infinite alternate,
+		blink 500ms steps(26) infinite normal;
+	/* border-right: 20px solid rgb(255, 64, 6); */
+
+}
+
+@keyframes typewriter {
+	from {
+		width: 0%;
+	}
+
+	to {
+		width: 100%;
+	}
+}
+
+@keyframes blink {
+	from {
+		border-color: rgb(68, 65, 66);
+
+	}
+
+	to {
+		border-color: transparent;
+	}
+}
